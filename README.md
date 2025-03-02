@@ -1,2 +1,1 @@
-# eps-to-png-converter
-A repository for converting EPS files to PNG using pure Python
+This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
