@@ -1,5 +1,3 @@
-This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
-
 ## Convert EPS to PNG
 
 To convert an EPS file to a PNG file using the `eps_to_png.py` script, follow these steps:
