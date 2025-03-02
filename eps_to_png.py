@@ -2,9 +2,6 @@ import os
 import struct
 import zlib
 
-def read_eps_file(eps_file):
-    with open(eps_file, 'rb') as f:
-        return f.read()
 
 def convert_eps_to_png(eps_data):
     lines = eps_data.decode('latin-1').split('\n')
@@ -57,6 +54,7 @@ def convert_eps_to_png(eps_data):
     png_data.extend(struct.pack('>I', crc))
 
     return png_data
+
 
 def save_png(png_data, png_file):
     with open(png_file, 'wb') as f:
