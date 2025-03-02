@@ -3,6 +3,10 @@ import struct
 import zlib
 
 
+def read_eps_file(eps_file):
+    with open(eps_file, 'rb') as f:
+        return f.read()
+
 def convert_eps_to_png(eps_data):
     lines = eps_data.decode('latin-1').split('\n')
     width, height = 0, 0
