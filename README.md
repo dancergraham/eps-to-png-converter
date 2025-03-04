@@ -1,5 +1,7 @@
 ## Convert EPS to PNG
 
+⚠️WARNING doesn't work - built as a challenge in response to (this toot)[https://mastodon.social/@AlSweigart/114094567662879884] 
+
 To convert an EPS file to a PNG file using the `eps_to_png.py` script, follow these steps:
 
 1. Ensure you have Python installed on your system.
